@@ -30,4 +30,7 @@ public class Product {
 
     @Version
     private Long version;
+
+    @Column(name="category", length=30, unique=false)
+    private String category;
 }
